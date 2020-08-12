@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>MASTER EN CSS</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+</head>
+<body>
+    <!--Incio de la cabecera-->
+    <header id="header">
+        <div id="logotipo">
+            <a href="#"><img src="img/logo.png" alt="logotipo"></a>
+        </div>
+
+        <a href="index.html">
+            <h1>Master en CSS</h1>
+        </a>
+    </header>
+    <!--Fin de la cabecera-->
+    <!--Index de barra navegación-->
+    <nav id="nav">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contenido.html">Contenido</a></li>
+            <li><a href="requerimentos.html">Requerimentos</a></li>
+            <li>
+                <a href="lenguajes.html">Lenguajes</a>
+                <ul>
+                    <li><a href="html.html">HTML</a></li>
+                    <li><a href="css.html">CSS</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="frameworks.html">Frameworks</a>
+                <ul>
+                    <li><a href="less.html">LESS</a></li>
+                    <li><a href="sass.html">SASS</a></li>
+                    <li><a href="boostrap.html">BOOSTRAP</a></li>
+                </ul>
+            </li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="el-instructor.html">El instructor</a></li>
+            <li><a href="requerimentos.html">Reseñas</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <!--Fin de index de la barra de navegación--> 
+    <!--Inicio del contenido -->
+    <div id="content">
+        <!--Inicio de la barra lateral-->
+        <aside id="aside"> <!--Aside, etiqueta para hacer una barra lateral-->
+            <div class="widget" id="login">
+                <h3>Entrar al campus</h3>
+                <form action="">
+                    <label for="">Usuario</label>
+                    <input type="text">
+
+                    <label for="">Contraseña</label>
+                    <input type="text">
+
+                    <input type="submit" value="Entrar">
+
+                </form>
+                <a href="zona-de-alumnos.html">Zona de alumnos</a>
+                <a href="zona-del-profesor.html">Zona del profesor</a>
+                <a href="acceso-al-club.html">Acceso al CLUB</a>
+            </div>
+            <div class="widget" id="login">
+                <h3 class="blue">Aula virtual 1</h3>
+                <form action="">
+                    <label for="">Nombre de usuario</label>
+                    <input type="text">
+
+                    <label for="">Contraseña</label>
+                    <input type="text">
+
+                    <input type="submit" value="Entrar">
+
+                </form>
+            </div>
+            <div class="widget" id="login">
+                <h3 class="red">Aula virtual 2</h3>
+                <form action="">
+                    <label for="">Nombre de usuario</label>
+                    <input type="text">
+
+                    <label for="">Contraseña</label>
+                    <input type="text">
+
+                    <input type="submit" value="Entrar">
+
+                </form>
+            </div>
+            <div class="widget" id="login">
+                <h3>Enlaces de interés</h3>
+                <ul>
+                    <li>
+                        <a href="https://bit.ly/master-md" target="_blank">Master en marketing digital GRATUITO</a>
+                    </li>
+                    <li><a href="https://prazeris.com">Prazeris</a></li>
+                    <li><a href="#">Master en PHP</a></li>
+                    <li><a href="#">Master en JS</a></li>
+                </ul>
+            </div>
+
+        </aside>        
+        <!--Fin de la barra lateral-->
+        <!--Inicio de las secciones-->
+        <div id="sections">
+            <section id="fronted">
+                <span class="stickers">
+                    <img class="stickerOne" src="img/scotch.png" alt="pegatina">
+                    <img class="stickerTwo" src="img/scotch.png" alt="pegatina">
+                </span>
+
+                <h2 class="title">Noticias de front-end</h2>
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima reprehenderit labore
+                        earum voluptatibus voluptate quas modi! Voluptatum eos ullam ea sapiente repellat! Quas est
+                        porro illo quibusdam excepturi, culpa recusandae nostrum ipsum magnam consequatur incidunt totam
+                        s fugit numquam dicta quam est, illum impedit a natus tenetur
+                        excepturi. Architecto, dolorum?
+                    </p>
+                    <span class="date">[20-01-20. Pachacus]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima reprehenderit labore
+                        earum voluptatibus voluptate quas modi! Voluptatum eos ullam ea sapiente repellat! Quas est
+                        porro illo quibusdam excepturi, culpa recusandae nostrum ipsum magnam consequatur incidunt totam
+                        s fugit numquam dicta quam est, illum impedit a natus tenetur
+                        excepturi. Architecto, dolorum?
+                    </p>
+                    <span class="date">[20-01-20. Pachacus]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima reprehenderit labore
+                        earum voluptatibus voluptate quas modi! Voluptatum eos ullam ea sapiente repellat! Quas est
+                        porro illo quibusdam excepturi, culpa recusandae nostrum ipsum magnam consequatur incidunt totam
+                        s fugit numquam dicta quam est, illum impedit a natus tenetur
+                        excepturi. Architecto, dolorum?
+                    </p>
+                    <span class="date">[20-01-20. Pachacus]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima reprehenderit labore
+                        earum voluptatibus voluptate quas modi! Voluptatum eos ullam ea sapiente repellat! Quas est
+                        porro illo quibusdam excepturi, culpa recusandae nostrum ipsum magnam consequatur incidunt totam
+                        s fugit numquam dicta quam est, illum impedit a natus tenetur
+                        excepturi. Architecto, dolorum?
+                    </p>
+                    <span class="date">[20-01-20. Pachacus]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima reprehenderit labore
+                        earum voluptatibus voluptate quas modi! Voluptatum eos ullam ea sapiente repellat! Quas est
+                        porro illo quibusdam excepturi, culpa recusandae nostrum ipsum magnam consequatur incidunt totam
+                        s fugit numquam dicta quam est, illum impedit a natus tenetur
+                        excepturi. Architecto, dolorum?
+                    </p>
+                    <span class="date">[20-01-20. Pachacus]</span>
+                </article>
+            </section>
+            <section id="backend"> 
+                <span class="stickers">
+                    <img class="stickerOne" src="img/scotch.png" alt="pegatina">
+                    <img class="stickerTwo" src="img/scotch.png" alt="pegatina">
+                </span>   
+                <h2 class="title red">Noticias de back-end</h2>
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima reprehenderit labore
+                        earum voluptatibus voluptate quas modi! Voluptatum eos ullam ea sapiente repellat! Quas est
+                        porro illo quibusdam excepturi, culpa recusandae nostrum ipsum magnam consequatur incidunt totam
+                        s fugit numquam dicta quam est, illum impedit a natus tenetur
+                        excepturi. Architecto, dolorum?
+                    </p>
+                    <span class="date">[20-01-20. Pachacus]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima reprehenderit labore
+                        earum voluptatibus voluptate quas modi! Voluptatum eos ullam ea sapiente repellat! Quas est
+                        porro illo quibusdam excepturi, culpa recusandae nostrum ipsum magnam consequatur incidunt totam
+                        s fugit numquam dicta quam est, illum impedit a natus tenetur
+                        excepturi. Architecto, dolorum?
+                    </p>
+                    <span class="date">[20-01-20. Pachacus]</span>
+                </article>
+                <article class="article">
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima reprehenderit labore
+                        earum voluptatibus voluptate quas modi! Voluptatum eos ullam ea sapiente repellat! Quas est
+                        porro illo quibusdam excepturi, culpa recusandae nostrum ipsum magnam consequatur incidunt totam
+                        s fugit numquam dicta quam est, illum impedit a natus tenetur
+                        excepturi. Architecto, dolorum?
+                    </p>
+                    <span class="date">[20-01-20. Pachacus]</span>
+                </article>
+                <article class="article">
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima reprehenderit labore
+                        earum voluptatibus voluptate quas modi! Voluptatum eos ullam ea sapiente repellat! Quas est
+                        porro illo quibusdam excepturi, culpa recusandae nostrum ipsum magnam consequatur incidunt totam
+                        s fugit numquam dicta quam est, illum impedit a natus tenetur
+                        excepturi. Architecto, dolorum?
+                    </p>
+                    <span class="date">[20-01-20. Pachacus]</span>
+                </article>
+            </section>
+            <section id="instructor">  
+                <span class="stickers">
+                    <img class="stickerOne" src="img/scotch.png" alt="pegatina">
+                    <img class="stickerTwo" src="img/scotch.png" alt="pegatina">
+                </span>  
+                <h2 class="title orange">Noticias del instructor</h2>
+                <article class="article">
+                    <span class="icon">a</span> <!--El span es una etiqueta neutra-->
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima reprehenderit labore
+                        earum voluptatibus voluptate quas modi! Voluptatum eos ullam ea sapiente repellat! Quas est
+                        porro illo quibusdam excepturi, culpa recusandae nostrum ipsum magnam consequatur incidunt totam
+                        s fugit numquam dicta quam est, illum impedit a natus tenetur
+                        excepturi. Architecto, dolorum?
+                    </p>
+                    <span class="date">[20-01-20. Pachacus]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima reprehenderit labore
+                        earum voluptatibus voluptate quas modi! Voluptatum eos ullam ea sapiente repellat! Quas est
+                        porro illo quibusdam excepturi, culpa recusandae nostrum ipsum magnam consequatur incidunt totam
+                        s fugit numquam dicta quam est, illum impedit a natus tenetur
+                        excepturi. Architecto, dolorum?
+                    </p>
+                    <span class="date">[20-01-20. Pachacus]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima reprehenderit labore
+                        earum voluptatibus voluptate quas modi! Voluptatum eos ullam ea sapiente repellat! Quas est
+                        porro illo quibusdam excepturi, culpa recusandae nostrum ipsum magnam consequatur incidunt totam
+                        s fugit numquam dicta quam est, illum impedit a natus tenetur
+                        excepturi. Architecto, dolorum?
+                    </p>
+                    <span class="date">[20-01-20. Pachacus]</span>
+                </article>
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima reprehenderit labore
+                        earum voluptatibus voluptate quas modi! Voluptatum eos ullam ea sapiente repellat! Quas est
+                        porro illo quibusdam excepturi, culpa recusandae nostrum ipsum magnam consequatur incidunt totam
+                        s fugit numquam dicta quam est, illum impedit a natus tenetur
+                        excepturi. Architecto, dolorum?
+                    </p>
+                    <span class="date">[20-01-20. Pachacus]</span>
+                </article>
+            </section>            
+        </div>
+         <!--Fin de las secciones-->
+         <aside id="frase">
+            Under the shadow of your wings!
+            <a href="#">Leer más frases</a>
+        </aside>
+        <div class="clearfix"></div> <!--Esta etiqueta nos permitirá limpiar los flotados-->
+
+        <div id="history">
+            <a href="#">[Ver histórico de noticias]</a>
+        </div>
+    </div>
+    <!--Fin del contenido central-->
+    <!--Fotter-->
+    <div class="clearfix"></div>
+    <footer id="footer">
+        <p>Para más información visite mi perfil en <a href="#">mi perfil</a></p>
+         <p>Sígueme en:</p>
+         <a href="https://github.com/spncremmanuel" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png"/></a>
+         <a href="#"><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a>
+         <a href="#"><img src="https://img.icons8.com/color/48/000000/twitter-squared.png"/></a>
+         <p>&copy; Desarrollado por <b>spncremmanuel</b></p>
+    </footer>
+    <!--Fin-->
+</body>
+
+</html>
